@@ -3,11 +3,11 @@ import { useState } from "react";
 
 let M2insidecomponent = () => {
   let [users, setUsers] = useState([]);
-  let [show, setShow] = useState(false); // 👈 toggle state
+  let [show, setShow] = useState(false);
 
   let handleToggle = () => {
     if (!show) {
-      // if data is hidden → fetch users
+      // hidden fetch users
       axios
         .get("https://jsonplaceholder.typicode.com/users")
         .then((Response) => {
