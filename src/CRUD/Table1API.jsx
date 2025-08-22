@@ -7,7 +7,7 @@ const Table1API = () => {
         console.log(Respones.data);
       })
       .catch((Error) => {
-        console.log(Error.msg);
+        console.log(Error, "the data is not coming");
       });
   };
   return (

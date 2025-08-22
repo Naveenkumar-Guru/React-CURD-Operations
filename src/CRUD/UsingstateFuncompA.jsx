@@ -52,7 +52,7 @@ const UsingstateFuncompA = () => {
                   <td>{user.id}</td>
                   <td>{user.name}</td>
                   <td>{user.username}</td>
-                  <tb>{user.email}</tb>
+                  <td>{user.email}</td>
                   <td>{user.address.street}</td>
                   <td>{user.address.suite}</td>
                   <td>{user.address.city}</td>
