@@ -3,7 +3,7 @@ import { useState } from "react";
 
 let M2insidecomponent = () => {
   let [users, setUsers] = useState([]);
-  let [show, setShow] = useState(false); // 👈 toggle state
+  let [show, setShow] = useState(false); //  toggle state
 
   let handleToggle = () => {
     if (!show) {

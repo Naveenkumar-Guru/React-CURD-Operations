@@ -2,7 +2,7 @@ import React from "react";
 
 const Events = () => {
   let handleClick = (Event) => {
-    Event.target.textContent = "Hellooo";
+    Event.target.textContent = "hello";
   };
   return (
     <div>
