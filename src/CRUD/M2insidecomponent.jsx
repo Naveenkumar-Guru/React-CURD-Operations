@@ -22,7 +22,6 @@ let M2insidecomponent = () => {
       setShow(false); //hide table
     }
   };
-
   return (
     <div>
       <h1>InsideComponents</h1>
@@ -55,3 +54,5 @@ let M2insidecomponent = () => {
 };
 
 export default M2insidecomponent;
+
+
