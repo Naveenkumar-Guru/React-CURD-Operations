@@ -3,10 +3,9 @@
 // import UsingstateFuncompA from "./CRUD/UsingstateFuncompA";
 // import M1useStateinitializer from "./CRUD/M1useStateinitializer";
 // import M2insidecomponent from "./CRUD/M2insidecomponent";
-
-import Events from "./Events/Events";
-
+// import Events from "./Events/Events";
 // import M3 from "./CRUD/M3";
+import MouseEvents from "./MouseEvents/MouseEvents";
 
 const App = () => {
   return (
@@ -17,7 +16,8 @@ const App = () => {
       {/* <M1useStateinitializer /> */}
       {/* <M2insidecomponent /> */}
       {/* <M3 /> */}
-      <Events />
+      {/* <Events /> */}
+      <MouseEvents />
     </div>
   );
 };
