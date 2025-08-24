@@ -2,23 +2,29 @@ import React from "react";
 import "./MouseEvents.css";
 const MouseEvents = () => {
   const handleClick = (e) => {
-    e.target.classList.add("onclick-btn"); // apply styles on click
-    e.target.textContent = "Clicked!....."; // change button text
+    e.target.textContent = "Clicked!.....";
+    e.target.style.background = "black";
   };
+
   const DoubleClick = (e) => {
     e.target.textContent = "Double Clicked!....";
+    e.target.style.background = "red";
   };
   const handleMouseOver = (e) => {
     e.target.textContent = " Mouse Over!";
+    e.target.style.background = "yellow";
   };
   const onMouseOut = (e) => {
     e.target.textContent = "Hover Over Me Again";
+    e.target.style.color = "white";
+    e.target.style.background = "black";
   };
   let Mousemove = (e) => {
+    e.target.style.background = "pink";
     alert("Mouse Moving!");
   };
   return (
-    <div style={{ padding: "20px",margin:"150px" }}>
+    <div style={{ padding: "20px", margin: "150px" }}>
       <h2>Mouse Events Demo</h2>
 
       <button className="onclick-btn" onClick={handleClick}>
