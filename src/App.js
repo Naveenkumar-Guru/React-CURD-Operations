@@ -5,7 +5,8 @@
 // import M2insidecomponent from "./CRUD/M2insidecomponent";
 // import Events from "./Events/Events";
 // import M3 from "./CRUD/M3";
-import MouseEvents from "./MouseEvents/MouseEvents";
+// import MouseEvents from "./MouseEvents/MouseEvents";
+import RegistrationformClasscomp from "./Forms/RegistrationformClasscomp";
 
 const App = () => {
   return (
@@ -17,7 +18,8 @@ const App = () => {
       {/* <M2insidecomponent /> */}
       {/* <M3 /> */}
       {/* <Events /> */}
-      <MouseEvents />
+      {/* <MouseEvents /> */}
+      <RegistrationformClasscomp />
     </div>
   );
 };
