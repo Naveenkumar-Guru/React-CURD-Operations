@@ -6,7 +6,9 @@
 // import Events from "./Events/Events";
 // import M3 from "./CRUD/M3";
 // import MouseEvents from "./MouseEvents/MouseEvents";
-import RegistrationformClasscomp from "./Forms/RegistrationformClasscomp";
+// import RegistrationformClasscomp from "./Forms/RegistrationformClasscomp";
+// import RegistrationsStateform from "./Forms/RegistrationsStateform";
+import Login from "./Forms/Login";
 
 const App = () => {
   return (
@@ -19,7 +21,9 @@ const App = () => {
       {/* <M3 /> */}
       {/* <Events /> */}
       {/* <MouseEvents /> */}
-      <RegistrationformClasscomp />
+      {/* <RegistrationformClasscomp /> */}
+      {/* <RegistrationsStateform /> */}
+      <Login />
     </div>
   );
 };
