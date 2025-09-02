@@ -8,7 +8,8 @@
 // import MouseEvents from "./MouseEvents/MouseEvents";
 // import RegistrationformClasscomp from "./Forms/RegistrationformClasscomp";
 // import RegistrationsStateform from "./Forms/RegistrationsStateform";
-import Login from "./Forms/Login";
+// import Login from "./Forms/Login";
+import StaffLoginForm from "./Forms/StaffLoginForm";
 
 const App = () => {
   return (
@@ -23,7 +24,8 @@ const App = () => {
       {/* <MouseEvents /> */}
       {/* <RegistrationformClasscomp /> */}
       {/* <RegistrationsStateform /> */}
-      <Login />
+      {/* <Login /> */}
+      <StaffLoginForm />
     </div>
   );
 };
