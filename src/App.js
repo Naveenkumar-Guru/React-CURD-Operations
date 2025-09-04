@@ -35,19 +35,33 @@
 
 // export default App;
 
-// *******************************************************************************
+//projects *******************************************************************************
 
-// import "bootstrap/dist/css/bootstrap.css";
-// import Navbar from "./Navbar/Navbar";
-import CounterApp from "./Components/Projects/Counter/CounterApp";
+import React from "react";
+//import CounterApp from "./Practice-Level-Projects/CounterApp/CounterApp";
+import ColorPicker from "./Practice-Level-Projects/ColorPickerApp/ColorPicker";
 
 const App = () => {
   return (
     <div>
-      {/* <Navbar /> */}
-      <CounterApp />
+      {/* <CounterApp /> */}
+      <ColorPicker />
     </div>
   );
 };
 
 export default App;
+
+// // import "bootstrap/dist/css/bootstrap.css";
+// import Navbar from "./Navbar/Navbar";
+// // import CounterApp from "./Components/Projects/Counter/CounterApp";
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Navbar />
+//     </div>
+//   );
+// };
+
+// export default App;
