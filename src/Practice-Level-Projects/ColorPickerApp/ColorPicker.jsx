@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Colorpicker.css";
 
 const ColorPicker = () => {
   const [color, setColor] = useState("#ffffff"); // default white
