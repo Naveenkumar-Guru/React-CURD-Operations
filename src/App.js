@@ -1,25 +1,26 @@
 // ******************************************CRUD**********************************************
+import "bootstrap/dist/css/bootstrap.css";
 // import Table1API from "./CRUD/Table1API";
 // import TableclassCompA from "./CRUD/TableclassCompA";
 // import UsingstateFuncompA from "./CRUD/UsingstateFuncompA";
 // import M1useStateinitializer from "./CRUD/M1useStateinitializer";
 // import M2insidecomponent from "./CRUD/M2insidecomponent";
 
-import ENavbar from "./CRUD/MountingUpdateUnmounting/ENavbar";
+// import ENavbar from "./CRUD/MountingUpdateUnmounting/ENavbar";
 
-const App = () => {
-  return (
-    <div>
-      {/* <Table1API />
-      <TableclassCompA />
-      <UsingstateFuncompA />
-      <M1useStateinitializer />
-      <M2insidecomponent /> */}
-      <ENavbar />
-    </div>
-  );
-};
-export default App;
+// const App = () => {
+//   return (
+//     <div>
+//       {/* <Table1API />
+//       <TableclassCompA />
+//       <UsingstateFuncompA />
+//       <M1useStateinitializer />
+//       <M2insidecomponent /> */}
+//       <ENavbar />
+//     </div>
+//   );
+// };
+// export default App;
 
 //**********************************************Events***************************************************
 
@@ -64,24 +65,26 @@ export default App;
 // export default App;
 
 //*********************************************Practice-Level-projects*****************************************
-// import React from "react";
-// //import CounterApp from "./Practice-Level-Projects/CounterApp/CounterApp";
+import React from "react";
+//import CounterApp from "./Practice-Level-Projects/CounterApp/CounterApp";
 // import ColorPicker from "./Practice-Level-Projects/ColorPickerApp/ColorPicker";
+import LightDarkModes from "./Practice-Level-Projects/LightmodeDarkmode/LightDarkModes";
 
-// const App = () => {
-//   return (
-//     <div>
-//       {/* <CounterApp /> */}
-//       <ColorPicker />
-//     </div>
-//   );
-// };
+const App = () => {
+  return (
+    <div>
+      {/* <CounterApp /> */}
+      {/* <ColorPicker /> */}
+      <LightDarkModes />
+    </div>
+  );
+};
 
-// export default App;
+export default App;
 
 //***************************************Navbar*************************************************
 
-// // import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.css";
 // import Navbar from "./Navbar/Navbar";
 // // import CounterApp from "./Components/Projects/Counter/CounterApp";
 

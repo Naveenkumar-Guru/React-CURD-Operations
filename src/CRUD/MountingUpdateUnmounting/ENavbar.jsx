@@ -7,9 +7,29 @@ import EmployeesClassComp from "./EmployeesClassComp";
 const ENavbar = () => {
   return (
     <Router>
-      <nav>
-        <Link to="/index">Home</Link> | <Link to="/login">Login</Link> |{" "}
-        <Link to="/employees">Employees</Link>
+      <nav className="navbar navbar-dark bg-dark navbar-expand-lg ">
+        <Link className="navbar-brand" to="/index">
+          Logo
+        </Link>
+        <div className="ml-auto">
+          <ul className="navbar-nav">
+            <li>
+              <Link className="nav-Link" to="/index">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link className="nav-Link" to="/login">
+                Login
+              </Link>
+            </li>
+            <li>
+              <Link className="nav-Link" to="/employees">
+                Employees
+              </Link>
+            </li>
+          </ul>
+        </div>
       </nav>
       <Routes>
         <Route path="/index" element={<Home />} />
