@@ -8,17 +8,6 @@
   justify-content: center;
   transition: all 0.3s ease-in-out;
 }
-
-.light {
-  background-color: white;
-  color: black;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease-in-out;
-}
 .dark {
   background-color: black;
   color: white;
