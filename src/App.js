@@ -102,12 +102,14 @@
 // ........................................project.............................................
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import Comp1Map from "./AssignmentArray Methods/Comp1Map";
+// import Comp1Map from "./AssignmentArray Methods/Comp1Map";
+import Comp2filter from "./AssignmentArray Methods/Comp2filter";
 
 const App = () => {
   return (
     <div>
-      <Comp1Map />
+      {/* <Comp1Map /> */}
+      <Comp2filter />
     </div>
   );
 };
