@@ -1,3 +1,4 @@
+//this is react version 6
 import React from "react";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import Home from "./Home";
