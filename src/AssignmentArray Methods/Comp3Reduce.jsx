@@ -60,3 +60,6 @@ const Comp3Reduce = () => {
 };
 
 export default Comp3Reduce;
+
+
+
