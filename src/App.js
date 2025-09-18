@@ -99,17 +99,28 @@
 
 // export default App;
 
-// ........................................project.............................................
+// ........................................AssignmentArray.............................................
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.css";
 // import Comp1Map from "./AssignmentArray Methods/Comp1Map";
-import Comp2filter from "./AssignmentArray Methods/Comp2filter";
+// import Comp2filter from "./AssignmentArray Methods/Comp2filter";
+// import Comp3fil from "./AssignmentArray Methods/Comp3fil";
+// import Comp3Reduce from "./AssignmentArray Methods/Comp3Reduce";
+// import Comp4Mapfilter from "./AssignmentArray Methods/Comp4Mapfilter";
+// import Comp5Find from "./AssignmentArray Methods/Comp5Find";
+// import Login from "./LoginDetails/Login";
+import NewLogin from "./LoginDetails/NewLogin";
 
 const App = () => {
   return (
     <div>
       {/* <Comp1Map /> */}
-      <Comp2filter />
+      {/* <Comp2filter /> */}
+      {/* <Comp3Reduce /> */}
+      {/* <Comp4Mapfilter /> */}
+      {/* <Comp5Find /> */}
+      {/* <Login /> */}
+      <NewLogin />
     </div>
   );
 };

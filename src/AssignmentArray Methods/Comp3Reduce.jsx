@@ -23,7 +23,7 @@ const Comp3Reduce = () => {
 
   //  Reduce → calculate total length of names
   const totalNameLength = filteredUsers.reduce(
-    (sum, user) => sum + user.name.length,
+    (sum, user) => sum + user.id.length,
     0
   );
 
@@ -60,6 +60,3 @@ const Comp3Reduce = () => {
 };
 
 export default Comp3Reduce;
-
-
-

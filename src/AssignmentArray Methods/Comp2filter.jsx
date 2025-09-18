@@ -4,7 +4,7 @@ import axios from "axios";
 const Comp2filter = () => {
   const [users, setUsers] = useState([]);
   const [search, setSearch] = useState("");
-
+  
   useEffect(() => {
     axios
       .get("https://jsonplaceholder.typicode.com/users")
@@ -28,7 +28,7 @@ const Comp2filter = () => {
       <input
         type="text"
         placeholder="Search by name or ID..."
-        value={search} // use state variable 
+        value={search} // use state variable
         onChange={(e) => setSearch(e.target.value)}
         style={{ padding: "8px", marginBottom: "20px" }}
       />

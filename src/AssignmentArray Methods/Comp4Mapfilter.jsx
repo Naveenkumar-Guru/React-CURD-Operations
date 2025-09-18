@@ -47,7 +47,7 @@ const Comp4Mapfilter = () => {
           onChange={(e) => SetCity(e.target.value)}
         />
 
-        <h1>API Data</h1>
+        <h1 className="heading-tag-APIdata">API Data</h1>
         {cityFilteredUsers.map((u) => (
           <div
             className="map-container"
