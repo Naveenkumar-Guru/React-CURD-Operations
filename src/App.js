@@ -109,7 +109,8 @@ import React from "react";
 // import Comp4Mapfilter from "./AssignmentArray Methods/Comp4Mapfilter";
 // import Comp5Find from "./AssignmentArray Methods/Comp5Find";
 // import Login from "./LoginDetails/Login";
-import NewLogin from "./LoginDetails/NewLogin";
+// import NewLogin from "./LoginDetails/NewLogin";
+import UseMemo from "./Usememo/UseMemo";
 
 const App = () => {
   return (
@@ -120,7 +121,8 @@ const App = () => {
       {/* <Comp4Mapfilter /> */}
       {/* <Comp5Find /> */}
       {/* <Login /> */}
-      <NewLogin />
+      {/* <NewLogin /> */}
+      <UseMemo />
     </div>
   );
 };
