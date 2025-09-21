@@ -100,7 +100,7 @@
 // export default App;
 
 // ........................................AssignmentArray.............................................
-import React from "react";
+// import React from "react";
 // import "bootstrap/dist/css/bootstrap.css";
 // import Comp1Map from "./AssignmentArray Methods/Comp1Map";
 // import Comp2filter from "./AssignmentArray Methods/Comp2filter";
@@ -110,20 +110,38 @@ import React from "react";
 // import Comp5Find from "./AssignmentArray Methods/Comp5Find";
 // import Login from "./LoginDetails/Login";
 // import NewLogin from "./LoginDetails/NewLogin";
-import UseMemo from "./Usememo/UseMemo";
+// import UseMemo from "./Usememo/UseMemo";
+
+// const App = () => {
+//   return (
+//     <div>
+//       {/* <Comp1Map /> */}
+//       {/* <Comp2filter /> */}
+//       {/* <Comp3Reduce /> */}
+//       {/* <Comp4Mapfilter /> */}
+//       {/* <Comp5Find /> */}
+//       {/* <Login /> */}
+//       {/* <NewLogin /> */}
+//       <UseMemo />
+//     </div>
+//   );
+// };
+
+// export default App;
+//***************************************Redux*************************************************
+import React from "react";
+import { Provider } from "react-redux";
+import store from "./redux/Store";
+
+import Message from "./Message/Message";
 
 const App = () => {
   return (
-    <div>
-      {/* <Comp1Map /> */}
-      {/* <Comp2filter /> */}
-      {/* <Comp3Reduce /> */}
-      {/* <Comp4Mapfilter /> */}
-      {/* <Comp5Find /> */}
-      {/* <Login /> */}
-      {/* <NewLogin /> */}
-      <UseMemo />
-    </div>
+    <Provider store={store}>
+      <div>
+        <Message />
+      </div>
+    </Provider>
   );
 };
 
