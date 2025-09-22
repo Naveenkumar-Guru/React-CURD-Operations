@@ -130,15 +130,15 @@
 // export default App;
 //***************************************Redux*************************************************
 import React from "react";
+import Message from "./ComponentsRedux/Message";
+import store from "./ComponentsRedux/REDUX/Store";
 import { Provider } from "react-redux";
-import store from "./redux/Store";
-
-import Message from "./Message/Message";
 
 const App = () => {
   return (
     <Provider store={store}>
       <div>
+        <h1>Message</h1>
         <Message />
       </div>
     </Provider>
