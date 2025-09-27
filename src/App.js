@@ -133,14 +133,17 @@ import React from "react";
 import Message from "./ComponentsRedux/Message";
 import store from "./ComponentsRedux/REDUX/Store";
 import { Provider } from "react-redux";
+import Products from "./ComponentsRedux/REDUX/Products/Products";
 
 const App = () => {
   return (
     <Provider store={store}>
-      <div>
-        <h1>Message</h1>
-        <Message />
-      </div>
+      <hr></hr>
+      <h1>Message</h1>
+      <Message />
+      <hr></hr>
+      <hr></hr>
+      <Products />
     </Provider>
   );
 };
